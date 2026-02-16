@@ -8,8 +8,6 @@
 
 Transform your voice with professional audio effects in real-time! 🎵✨
 
-[Download on App Store](#) • [Report Bug](issues) • [Request Feature](issues)
-
 </div>
 
 ---
