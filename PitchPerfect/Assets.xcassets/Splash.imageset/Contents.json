@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "voicefx-small-icon-180x180.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

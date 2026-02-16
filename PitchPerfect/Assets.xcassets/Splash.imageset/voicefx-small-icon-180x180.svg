@@ -1,0 +1,23 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="bg-small" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1"/>
+                            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1"/>
+                        </linearGradient>
+                    </defs>
+                    
+                    <rect width="180" height="180" rx="32" fill="url(#bg-small)"/>
+                    
+                    <!-- Simplified microphone for small size -->
+                    <rect x="76" y="50" width="28" height="42" rx="14" fill="white"/>
+                    <line x1="79" y1="58" x2="101" y2="58" stroke="#667eea" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="79" y1="68" x2="101" y2="68" stroke="#667eea" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="79" y1="78" x2="101" y2="78" stroke="#667eea" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M 90 92 L 90 108 M 76 108 L 104 108" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    
+                    <!-- Mini waveforms -->
+                    <rect x="56" y="72" width="4" height="14" rx="2" fill="white" opacity="0.8"/>
+                    <rect x="63" y="66" width="4" height="26" rx="2" fill="white" opacity="0.8"/>
+                    <rect x="113" y="72" width="4" height="14" rx="2" fill="white" opacity="0.8"/>
+                    <rect x="120" y="66" width="4" height="26" rx="2" fill="white" opacity="0.8"/>
+                </svg>

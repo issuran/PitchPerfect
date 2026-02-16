@@ -39,7 +39,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
             audioFile = try AVAudioFile(forReading: recordedAudioURL as URL)
         } catch {
             showAlert(Alerts.AudioFileError, message: String(describing: error))
-        }        
+        }
     }
     
     func playSound(rate: Float? = nil, pitch: Float? = nil, echo: Bool = false, reverb: Bool = false) {
@@ -98,7 +98,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
                 }
             }
             
-            // schedule a stop timer for when audio finishes playing
+//             schedule a stop timer for when audio finishes playing
             self.stopTimer = Timer(timeInterval: delayInSeconds, target: self, selector: #selector(PlaySoundsViewController.stopAudio), userInfo: nil, repeats: false)
             RunLoop.main.add(self.stopTimer!, forMode: RunLoopMode.defaultRunLoopMode)
         }
